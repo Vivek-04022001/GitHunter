@@ -73,6 +73,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-#� �G�i�t�H�u�n�t�e�r�
-�
-�
+
+
+### FUTURE FEATURES
+1. CHANGE UI: VIDEO BACKGROUND, SLIDING ANIMATION AND SOUND TO CLICK AND WITH ANIMATIONS
+2. ADD SEARCH HISTORY FEATURES
