@@ -1,9 +1,9 @@
 import React from "react";
 
-function Footer() {
+function Footer({ isDarkMode }) {
   const footerYear = new Date().getFullYear();
   return (
-    <div className="footer p-10 bg-gray-700 text-primary-content footer-center">
+    <div className={`footer p-10 bg-gray-700 text-primary-content footer-center ${isDarkMode && "foot-light"} `}>
       <svg
         width="50"
         height="50"
