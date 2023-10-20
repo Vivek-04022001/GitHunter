@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-function Navbar({ title }) {
+function Navbar({ title, isDarkMode }) {
+
   return (
-    <nav className="navbar mb-12 shadow-lg bg-neutral text-neutral-content">
+    <nav className={`navbar mb-12 shadow-lg bg-neutral text-neutral-content ${isDarkMode && "nav-light"}`}>
       <div className="container mx-auto">
         <div className="flex-none px-2 mx-2">
           <FaGithub className="inline pr-2 text-3xl" />

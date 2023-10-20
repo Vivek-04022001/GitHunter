@@ -6,3 +6,39 @@
   border-radius: 0.5rem;
   opacity: 0.45;
 }
+
+.nav-light {
+  background-color: white;
+  color: #191D24;
+}
+
+.foot-light {
+  background-color: grey;
+  color: #191D24;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.toggle-btn {
+  border: 2px solid white;
+  border-radius: 10px;
+  position: fixed;
+  right: 5px;
+  top: 70px;
+  font-size: 10px;
+  color: #ffff;
+  letter-spacing: 0.5px;
+  padding: 5px;
+}
+
+.btn-light {
+  border: 2px solid black;
+  color: black;
+  position: fixed;
+  right: 5px;
+  top: 70px;
+  font-size: 10px;
+}
